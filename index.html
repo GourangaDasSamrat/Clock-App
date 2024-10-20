@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Clock App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Clock App</h1>
+        <div class="clock-switch">
+            <button id="digitalBtn">Digital Clock</button>
+            <button id="analogBtn">Analog Clock</button>
+        </div>
+        <div id="digitalClock" class="clock"></div>
+        <div id="analogClock" class="clock" style="display: none;">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+        
+        <div class="alarm-section">
+            <h2>Set Alarm</h2>
+            <input type="time" id="alarmTime">
+            <button id="setAlarm">Set Alarm</button>
+            <div id="alarmStatus"></div>
+        </div>
+
+        <div class="timer-section">
+            <h2>Timer</h2>
+            <input type="number" id="timerInput" placeholder="Minutes" min="1">
+            <button id="startTimer">Start Timer</button>
+            <button id="stopTimer">Stop Timer</button>
+            <button id="resetTimer">Reset Timer</button>
+            <div id="timerDisplay">00:00</div>
+        </div>
+
+        <div class="stopwatch-section">
+            <h2>Stopwatch</h2>
+            <button id="startStopwatch">Start Stopwatch</button>
+            <button id="stopStopwatch">Stop Stopwatch</button>
+            <button id="resetStopwatch">Reset Stopwatch</button>
+            <div id="stopwatchDisplay">00:00</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
