@@ -10,9 +10,7 @@ An advanced clock app built using HTML, CSS, and JavaScript that features both d
 - **Timer**: Set a countdown timer in minutes.
 - **Stopwatch**: Start, stop, and reset a stopwatch.
 
-## Demo
 
-![Demo](link-to-your-demo-image-or-video)
 
 ## Technologies Used
 
